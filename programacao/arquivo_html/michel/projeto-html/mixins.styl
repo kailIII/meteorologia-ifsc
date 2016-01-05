@@ -1,0 +1,57 @@
+vendors = webkit moz o ms khtml official
+
+border-radius(n)
+  for vendor in vendors
+    if vendor == official
+      border-radius: n
+    else
+      -{vendor}-border-radius: n
+
+text-shadow(n)
+  for vendor in vendors
+    if vendor == official
+      text-shadow: n
+    else
+      -{vendor}-text-shadow: n
+
+box-shadow(n)
+  for vendor in vendors
+    if vendor == official
+      box-shadow: n
+    else
+      -{vendor}-box-shadow: n
+
+opacity(n)
+  for vendor in vendors
+    if vendor == official
+      opacity: n
+    else
+      -{vendor}-opacity: n
+
+transform(n)
+  for vendor in vendors
+    if vendor == official
+      transform: n
+    else
+      -{vendor}-transform: n
+
+box-sizing(n)
+  for vendor in vendors
+    if vendor == official
+      box-sizing: n
+    else
+      -{vendor}-box-sizing: n
+
+text-overflow(n)
+  for vendor in vendors
+    if vendor == official
+      text-overflow: n
+    else
+      -{vendor}-text-overflow: n
+  
+user-select(n)
+  for vendor in vendors
+    if vendor == official
+      user-select: n
+    else
+      -{vendor}-user-select: n

@@ -1,0 +1,83 @@
+
+body {
+    background: #1F1F1F;
+    height: 100%;
+    font-size: 40px;
+}
+
+#title {
+    color: #D6D6D6;
+    font-family: Verdana;
+    margin: 0 auto;
+    width: 80%;
+    text-align:center;
+}
+
+.deserto {
+    border: solid rgba(83, 83, 83, 0.6) 12px;
+    background: rgba(0,0,0, 0.6);
+    border-radius: 5px ;
+    box-shadow:14px 13px 23px #D6D6D6;
+    margin: 0 auto;
+    display:block;
+    height: 556px;
+    color: #D6D6D6;
+    text-align: center;
+    width: 80%;
+    }
+
+.quente {
+    background-image: url(imagens/quente.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.frio {
+    background-image: url(imagens/gelado.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #D6D6D6;
+    font-family: Verdana;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+.title2 {
+    color: #D6D6D6;
+    font-family: Verdana;
+    margin: 0 auto;
+    width: 80%;
+    text-align:center;
+}
+
+.full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align:center;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    font-size:20px;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}

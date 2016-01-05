@@ -1,0 +1,22 @@
+{
+  "name": "aula06",
+  "homepage": "https://github.com/michelwilhelm/meteorologia-ifsc",
+  "authors": [
+    "Michel Wilhelm <michelwilhelm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

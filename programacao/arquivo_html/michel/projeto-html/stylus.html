@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Stylus | Pré-processadores CSS</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="align-center">
+                <a href="https://learnboost.github.io/stylus/" target="_blank"><img src="assets/stylus.png" alt="Stylus"></a>
+            </div>
+            <h1>Sobre o Stylus</h1>
+            <p>Stylus é um pré-processador CSS poderoso porém, simples. A idéia é que com ele possa ser criado CSS de forma ágil, legível e simples.</p>
+            <p>Exemplo:</p>
+<pre>
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+
+body
+  font 12px Helvetica, Arial, sans-serif
+
+a.button
+  border-radius(5px)
+</pre>
+            <p>Código CSS resultante:</p>
+            <p></p>
+            <pre>body {
+  font: 12px Helvetica, Arial, sans-serif;
+}
+a.button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}</pre>
+            <p></p>
+            <h2>Instalação</h2>
+            <p>Stylus, tal como Less, utiliza o NodeJS como dependência e sua instalação é extremamente simples</p>
+            <pre>$ npm install stylus -g</pre>
+            <p></p>
+            <h2>Utilização</h2>
+            <p>Para renderizar o css <pre>stylus style.styl</pre></p>
+            <p>Para observar um arquivo por modificações em tempo real <pre>stylus -w style.styl</pre></p>
+            <h2>Características</h2>
+            <p></p>
+            <ul>
+                <li>Dois pontos opcional</li>
+                <li>Ponto e vírgula opcional</li>
+                <li>Vírgula opcional</li>
+                <li>Chaves opcionais</li>
+                <li>Variáveis</li>
+                <li>Interpolação</li>
+                <li>Mixins</li>
+                <li>Cálculos matemáticos</li>
+                <li>Importação dinâmica</li>
+                <li>Condicionais</li>
+                <li>Iteração</li>
+                <li>Seletores aninhados</li>
+                <li>Chamada de funções variáveis</li>
+                <li>Escopo léxico</li>
+                <li>Funções internas (mais de 60)</li>
+                <li>Funções de linguagem</li>
+                <li>Compressão opcional</li>
+                <li>Imagem em linha opcional</li>
+                <li>Executável Stylus</li>
+                <li>Sistema de relatório de erros robusto</li>
+                <li>Comentários em linha única ou multilinha</li>
+                <li>CSS literal para hacks</li>
+                <li>Escape de caracteres</li>
+            </ul>
+            <a href="index.html">&laquo; Voltar</a>
+        </div>
+    </body>
+</html>

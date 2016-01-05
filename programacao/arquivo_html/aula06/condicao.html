@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="condicao.css" type="text/css" />
+    <title>Condição do Tempo</title>
+    <script src="assets/jquery/dist/jquery.min.js" rel="javascript"></script>
+    <script src="assets/application.js" rel="javascript"></script>
+</head>
+<body>
+<div id="title"><h3>Condição do Tempo Florianópolis</h3></div>
+
+<!--<img src="assets/neve.jpg"/>-->
+
+<div class="condicao">
+    <div class="row">
+        <div class="l">Condição do Tempo</div>
+        <div class="r"><span id="condicao"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Temperatura</div>
+        <div class="r"><span id="temperatura"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Temperatura mínima</div>
+        <div class="r"><span id="minima"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Temperatura máxima</div>
+        <div class="r"><span id="maxima"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Pressão</div>
+        <div class="r"><span id="pressao"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Cobertura de nuvens</div>
+        <div class="r"><span id="nuvens"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Umidade relativa</div>
+        <div class="r"><span id="umidaderelativa"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Velocidade do vento</div>
+        <div class="r"><span id="velocidadevento"></span></div>
+    </div>
+    <div class="row">
+        <div class="l">Direção do vento</div>
+        <div class="r"><span id="direcaovento"></span></div>
+    </div>
+</div>
+<script>
+    // Quando a biblioteca jQuery estiver com o documento pronto
+    $(document).ready(function(){
+
+        // Chama a função init() da classe Condicao
+        /*global Condicao*/
+        Condicao.init();
+    });
+</script>
+</body>
+</html>

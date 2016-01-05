@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>LESS | Pré-processadores CSS</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="align-center">
+                <a href="http://lesscss.org/" target="_blank"><img src="assets/less.png" alt="LESS"></a>
+            </div>
+            <h1>Começando...</h1>
+            <p>Less é um pré-processador CSS, isso significa que estende a linguagem CSS, adicionando funcionalidades que permitem variáveis, mixins, funções e muitas outras técnicas que permitem que você faça CSS que é de manutenção mais fácil, tematizáveis e extensível.</p>
+            <p>Por exemplo:</p>
+            <pre>
+@base: #f938ab;
+
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  -webkit-box-shadow: @style @c;
+  box-shadow:         @style @c;
+}
+.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
+  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+.box {
+  color: saturate(@base, 5%);
+  border-color: lighten(@base, 30%);
+  div { .box-shadow(0 0 5px, 30%) }
+}
+            </pre>
+            <p>Após processado, será:</p>
+            <pre>
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box div {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+            </pre>
+            <p></p>
+            <h1>Instalação</h1>
+            <p>O modo mais simples para instalar o Less no servidor, é via <a href="http://nodebr.com/o-que-e-a-npm-do-nodejs/" target="_blank">npm</a>, um gerenciador de pacotes do NodeJS, veja abaixo como instalá-lo:</p>
+            <pre>$ npm install -g less</pre>
+            <p></p>
+            <h1>Usando em linha de comando</h1>
+            <p>Uma vez instalado, você pode chamar o compilador via terminal com o seguinte comando:</p>
+            <pre>$ lessc styles.less</pre>
+            <p>Com isso, irá exibir o código CSS no terminal. Para salvar a saida CSS para um arquivo, segue o exemplo abaixo:</p>
+            <pre>$ lessc styles.less styles.css</pre>
+            <a href="index.html">&laquo; Voltar</a>
+        </div>
+    </body>
+</html>

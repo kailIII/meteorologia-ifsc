@@ -1,0 +1,91 @@
+body {
+    background: #1F1F1F;
+    height: 100%;
+    font-size: 40px;
+}
+
+#title {
+    color: #D6D6D6;
+    font-family: Verdana;
+    margin: 0 auto;
+    width: 80%;
+    text-align:center;
+}
+
+.deserto {
+    border: solid rgba(83, 83, 83, 0.6) 12px;
+    background: rgba(0,0,0, 0.6);
+    border-radius: 5px ;
+    box-shadow:14px 13px 23px #D6D6D6;
+    height: 556px;
+    color: #D6D6D6;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    }
+
+.quente {
+    background-image: url(imagens/quente.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.frio {
+    background-image: url(imagens/gelado.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #D6D6D6;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding:10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.imagemDeserto {
+    background: url(imagens/deserto.jpg) no-repeat 50% 50%;
+    height: 1000px;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+}
+a:hover {
+    color: #a3a3a3;
+}
+
+.referencias {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.referencias a {
+    font-size: 14px;
+}
+
+.menu {
+    text-align:center;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    font-size:20px;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}

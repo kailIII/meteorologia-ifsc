@@ -1,0 +1,77 @@
+* {
+    background:#E0E0E0;
+    font-family: Arial;
+    font-size: 20px;
+}
+.wrapper {
+    padding:15%;
+}
+.botao {
+    background:#C2C2C2;
+    color: #000033;
+    border: solid rgba(224, 224, 224, 0.6) 2px;
+    border-radius: 5px;
+    box-shadow:4px 4px 4px #C2C2C2;
+    margin: 0 auto;
+    display:block;
+    padding: 15px 15px;
+    background:#fefefe;
+}
+
+.tabela {
+    display: table;
+    background:#C2C2C2;
+    color: #000033;
+    border: solid rgba(224, 224, 224, 0.6) 2px;
+    border-radius: 5px;
+    box-shadow:4px 4px 4px #C2C2C2;
+    margin: 0 auto;
+    padding: 15px 15px;
+    border-collapse: collapse;
+    width:70%;
+}
+
+.tabela tr {
+    width:100%;
+}
+
+.tabela td {
+    width: 33%;
+    text-align:center;
+    padding:10px;
+}
+.principal {
+    width: 90%;
+    margin: 0 auto;
+   }
+
+.valor {
+   color: #000033;
+    border: solid rgba(224, 224, 224, 0.6) 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display:block;
+    padding: 15px 15px;
+    text-align:center;
+    background:#fefefe;
+    width:65%;
+    border-radius:5px;
+    box-shadow:4px 4px 4px #C2C2C2;
+}
+
+.resposta {
+    border: solid rgba(224, 224, 224, 0.6) 2px;
+    color: #000033;
+    text-align:center;
+    margin: 0 auto;
+    display:block;
+    padding: 15px 15px;
+    background:#fefefe;
+    width:65%;
+    border-radius:5px;
+    box-shadow:4px 4px 4px #C2C2C2;
+}
+
+.celula_esquerda, .celula_direita {
+    padding:3px;
+}

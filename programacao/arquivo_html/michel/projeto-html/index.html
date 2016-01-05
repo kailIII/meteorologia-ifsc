@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Pré-processadores CSS</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Pré-processadores CSS, o que são?</h1>
+            <p>
+                Pré-processadores são programas que recebem uma entrada, normalmente um texto, efetuando conversões em seu conteúdo que podem incluir substituições e inclusões condicionais.
+                <div class="align-center">
+                    <img src="assets/pre-processador-css.png" alt="Pré-processador CSS" />
+                </div>
+            </p>
+            <p>No caso dos pré-processadores CSS este fluxo não é diferente, onde os códigos são desenvolvidos através de seus recursos facilitadores, depois submetido ao processador tendo como resultado seu conteúdo adequado as limitações do CSS. O principal benefício dos pré-processadores é o ganho na produtividade, seja na criação ou manutenção de estilos, gerando aplicações com estilo organizado e sem duplicação de código.</p>
+            <p></p>
+            <h2>Alguns dos principais pré-processadores disponíveis no mercado</h2>
+            <small>Clique nos nomes para visualizar exemplos</small>
+            <div class="table">
+                <div class="header">
+                    <div class="left">
+                        <h3>Pré-processador</h3>
+                    </div>
+                    <div class="right">
+                        <h3>Descrição</h3>
+                    </div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <a href="less.html">Less</a>
+                    </div>
+                    <div class="right">Criada por Alexis Sellier, LESS é uma linguagem de folhas de estilo dinâmica originalmente desenvolvida com Ruby, mas suas versões atuais usam JavaScript para processamento.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <a href="sass.html">Sass</a>
+                    </div>
+                    <div class="right">Criada por Hampton Catlin e Natalie Weizenbaum, Sass é uma linguagem de folha de estilos dinâmica que possui dois tipos de sintaxe, Sass e Scss, sendo originalmente desenvolvida com Ruby, mas possui versões em PHP, Java e C.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <a href="stylus.html">Stylus</a>
+                    </div>
+                    <div class="right">Criada por TJ Holowaychuk, Stylus é uma linguagem de folhas de estilo dinâmica desenvolvida com NodeJS e possui suporte para sintaxe indentada e tradicional do CSS.</div>
+                    <br clear="all">
+                </div>
+            </div>
+            <p></p>
+            <h2>Os principais recursos dos pré-processadores</h2>
+            <div class="table">
+                <div class="header">
+                    <div class="left">
+                        <h3>Recurso</h3>
+                    </div>
+                    <div class="right">
+                        <h3>Definição</h3>
+                    </div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Variáveis</div>
+                    <div class="right">As váriáveis são usadas para armazenar informações, nos pré-processadores essas variávies na verdade funcionam como constantes, sendo definida apenas uma vez, ótimo para guardar as principais cores de um template, fonte padrão, etc.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Operadores</div>
+                    <div class="right">Os operadores são úteis para cálculos matemáticos como controle de altura e largura, podendo também ser baseado em variáveis.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Aninhamento</div>
+                    <div class="right">Embora as linguagens de marcação como HTML e XML disponibilizem meios de aninhar conteúdo o CSS não oferece esse tipo de suporte, o que acaba gerando confusão na folha de estilo e duplicação nas declarações. Os pré-processadores oferecem uma alternativa simples de aninhamento que resolve esse problema, deixando o código mais limpo e de fácil entendimento.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Importação</div>
+                    <div class="right">O CSS oferece esse recurso mas para cada importação é gerado uma requisição HTTP, o que não é muito interessante, com os pré-processadores uma vez processado será gerado um arquivo CSS com todo conteúdo necessário, possibilitando organizar os estilos mas sem comprometer o desempenho.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Mixins</div>
+                    <div class="right">Os mixins permitem que sejam criados grupos de declarações, como por exemplo classes, que serão reutilizadas no decorrer do código, onde é possível definir parâmetros, possibilitando também o comportamento de herança.</div>
+                    <br clear="all">
+                </div>
+                <div class="row">
+                    <div class="left">Funções</div>
+                    <div class="right">Este recurso não é oferecido por todos os pré-processadores, seu objetivo é disponibilizar funções pré-definidas, visando operações matemáticas, tipo de variável, definição de cores, etc.</div>
+                    <br clear="all">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
